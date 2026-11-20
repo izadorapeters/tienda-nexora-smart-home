@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "nombre": "Bombilla Inteligente",
+        "precio": "59.990",
+        "img": "img/producto_camara_inteligente.png"
+    },
+
+    {
+        "id": "2",
+        "nombre": "Producto 2",
+        "precio": "24.990",
+        "img": "img/producto_bombilla_inteligente.png"
+    },
+
+    {
+        "id": "3",
+        "nombre": "Termostato Inteligente",
+        "precio": "89.990",
+        "img": "img/producto_termostato_inteligente.png"
+    },
+
+    {
+        "id": "4",
+        "nombre": "Enchufe Inteligente",
+        "precio": "19.990",
+        "img": "img/producto_enchufe_inteligente.png"
+    }
+    
+]

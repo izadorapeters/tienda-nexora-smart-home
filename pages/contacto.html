@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+    
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+             <a class="logo" href="../index.html">
+                <img src="../img/logo_nexora.png" alt="Logo Nexora" width="200">
+             </a> 
+        </div>
+        
+        <nav class="header-nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./carrito.html" class="carrito-icono">🛒<span id="contador-carrito"></span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header></header>
+
+        <section class="contacto">
+            <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+            <form class="form-contacto" action="https://formspree.io/f/xdegkdva" method="post">
+                <div class="grupo-input">
+                    <label> Nombre:
+                        <input type="text"
+                        name="nombre"
+                        required>
+                    </label>
+                </div>
+
+                <div class="grupo-input">
+                    <label>Email:
+                        <input type="email"
+                        name="email"
+                        required>
+                    </label>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="mensaje">Su mensaje</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+    
+                <button class="btn bg-secondary text-dark" typen="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>© 2026 Nexora Smart Home. </p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+    <script src="../js/contacto.js" type="module"></script>
+</body>
+</html>
