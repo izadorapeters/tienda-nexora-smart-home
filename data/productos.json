@@ -1,14 +1,14 @@
 [
     {
         "id": "1",
-        "nombre": "Bombilla Inteligente",
+        "nombre": "Camara Inteligente",
         "precio": "59.990",
         "img": "img/producto_camara_inteligente.png"
     },
 
     {
         "id": "2",
-        "nombre": "Producto 2",
+        "nombre": "Bombilla Inteligente",
         "precio": "24.990",
         "img": "img/producto_bombilla_inteligente.png"
     },
